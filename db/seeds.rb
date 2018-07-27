@@ -3,5 +3,12 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+   bread = Recipe.create(title: 'Zucchini Bread')
+   cake = Recipe.create(title: 'Chocolate Cake')
+   cookies = Recipe.create(title: "Almond Cookies")
+
+   ingredients = [{flour = Ingredient.create(name: "Flour", quantity: "240 grams")},
+   {eggs = Ingredient.create(name: "Eggs", quantity: "2")}
+   {soda = Ingredient.create(name: "Baking Soda", quantity: "1 tsp")}]
+
 #   Mayor.create(name: 'Emanuel', city: cities.first)
